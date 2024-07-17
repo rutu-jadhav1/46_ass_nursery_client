@@ -5,7 +5,9 @@
     margin: 20px ;
     position: relative;
     width: 500px;
-    height: 110px;
+    height: 110px;    
+    background-color: #98e698;
+    color: #143114;
 }
 .plant-title{
     font-size: 20px;

@@ -1,5 +1,6 @@
 .title{
     text-align: center;
+    color: #143114;
 }
 .plant-input{
     display: block;
@@ -15,7 +16,8 @@
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 5px;
-
+    background-color: #98e698;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .img-preview{
     height: 100px;
@@ -29,9 +31,12 @@
    border-radius: 5px;
    border: 1px solid gray;
    width: 100px;
+   background-color: #143114;
+   color: white;
 }
 .back-link{
     text-decoration: none;
     margin-left: 690px;
     font-size: 22px;
+    color: #143114;
 }
