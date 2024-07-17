@@ -35,13 +35,14 @@ function AddPlant() {
 
   return (
     <div>
-        <h1>Add Plant</h1>
+        <h1 className="title">Add Plant</h1>
          
          <form className="form-section">
             <input type="text" placeholder="Enter Plant Name" value={name} onChange={(e)=>setName(e.target.value)} className="plant-input"/>
 
             <input type="text" placeholder="Enter Plant Category" value={category} onChange={(e)=>setCategory(e.target.value)} className="plant-input"/>
 
+            <img src={image} className="img-preview"/>
             <input type="text" placeholder="Enter Plant ImageURL" value={image} onChange={(e)=>setImage(e.target.value)} className="plant-input"/>
 
             <input type="number" placeholder="Enter Plant Price" value={price} onChange={(e)=>setPrice(e.target.value)} className="plant-input"/>

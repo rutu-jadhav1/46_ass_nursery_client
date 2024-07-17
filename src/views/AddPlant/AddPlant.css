@@ -1,6 +1,18 @@
+.title{
+    text-align: center;
+}
 .plant-input{
     display: block;
     margin: 10px;
     width: 300px;
     padding: 4px;
+}
+.form-section{
+    margin: 10px auto;
+    width: 300px;
+}
+.img-preview{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
 }
