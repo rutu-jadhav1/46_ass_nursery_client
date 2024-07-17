@@ -1,8 +1,11 @@
-import "./Home.css"
-import PlantCard from "../../components/PlantCard/PlantCard"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import toast, { Toaster } from "react-hot-toast"
+import { Link } from "react-router-dom"
+
+import "./Home.css"
+import PlantCard from "../../components/PlantCard/PlantCard"
+import addImage from "./plus.png"
 
 function Home() {
 
@@ -30,6 +33,9 @@ function Home() {
         })
       }
       <Toaster/>
+      <Link to="/add">
+        <img src={addImage} alt="addImage" className="addImage-btn"/>
+      </Link>
     </div>
   )
 }
