@@ -2,6 +2,7 @@ import React from 'react'
 import "./PlantCard.css"
 import axios from 'axios'
 import toast from 'react-hot-toast'
+import { Link } from 'react-router-dom'
 
 function PlantCard({_id, name, category, image, price, description, loadPlants}) {
   
@@ -20,7 +21,7 @@ function PlantCard({_id, name, category, image, price, description, loadPlants})
         <p className='plant-info'>Description : {description}</p>
         <img src={image} className='plant-card-image' alt='plant-img'/>
         <div>
-          <button type='button' className='plant-card-action-btn'>Edit</button>
+          <Link className='plant-card-action-btn' to={`/update/${_id}`}>Edit</Link>
           <button type='button' className='plant-card-action-btn' 
             onClick={()=>{
               deletePlant(_id)
