@@ -8,6 +8,7 @@
     height: 110px;    
     background-color: #98e698;
     color: #143114;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .plant-title{
     font-size: 20px;
