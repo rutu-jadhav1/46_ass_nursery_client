@@ -42,4 +42,10 @@
     .plant-info{
         font-size: 12px;
     }
+    .plant-card-action-btn{
+        font-size: 12px;
+    }
+    .plant-card-image{
+        width: 110px;
+    }
 }
