@@ -5,7 +5,7 @@
     margin: 20px ;
     position: relative;
     width: 500px;
-    height: 110px;    
+    height: 140px;    
     background-color: #98e698;
     color: #143114;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -24,4 +24,12 @@
 .plant-info{
     margin: 0px;
     padding: 0px;
+}
+.plant-card-action-btn{
+    color: white;
+    background-color: #143114; 
+    margin: 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 2px 15px;
 }

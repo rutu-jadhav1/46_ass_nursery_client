@@ -35,6 +35,7 @@
    width: 100px;
    background-color: #143114;
    color: white;
+   cursor: pointer;
 }
 .back-link{
     text-decoration: none;
