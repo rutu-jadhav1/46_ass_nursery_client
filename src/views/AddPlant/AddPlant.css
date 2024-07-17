@@ -9,10 +9,29 @@
 }
 .form-section{
     margin: 10px auto;
-    width: 300px;
+    width: 400px;
+    border: 1px solid gray;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+
 }
 .img-preview{
     height: 100px;
     width: 150px;
     object-fit: cover;
+    margin-left: 90px;
+}
+.add-btn{
+   margin-left: 120px;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   width: 100px;
+}
+.back-link{
+    text-decoration: none;
+    margin-left: 690px;
+    font-size: 22px;
 }

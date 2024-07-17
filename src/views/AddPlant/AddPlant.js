@@ -49,9 +49,10 @@ function AddPlant() {
 
             <input type="text" placeholder="Enter Plant Description" value={description} onChange={(e)=>setDescription(e.target.value)} className="plant-input"/>
 
-            <button type="button" onClick={addPlant}>Add Plant</button>
+            <button type="button" onClick={addPlant} className="add-btn">Add Plant</button>
          </form>
-         <Link to="/">Show All Plants</Link>
+         <br/>
+         <Link to="/" className="back-link">Show All Plants</Link>
          <Toaster/>
     </div>
   )
