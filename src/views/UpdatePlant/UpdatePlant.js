@@ -46,7 +46,7 @@ function UpdatePlant() {
         }, [id])
 
   return (
-    <div>UpdatePlant : {id}
+    <div>
         <h1 className="title">Update Plant</h1>
          
          <form className="form-section">
