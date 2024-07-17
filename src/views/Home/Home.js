@@ -24,19 +24,21 @@ function Home() {
   }, [])
 
   return (
-    <div>
-      <h1>Plants</h1>
-      {
-        plants.map((plant, i)=>{
-          const {_id, name, category, image, price, description} =plant
-          return <PlantCard key={i} _id={_id} name={name} category={category} image={image} price={price} description={description}/>
-        })
-      }
-      <Toaster/>
-      <Link to="/add">
-        <img src={addImage} alt="addImage" className="addImage-btn"/>
-      </Link>
-    </div>
+    <>
+      <h1 className="heading">RJ's Nursery</h1>
+      <div className="plantCard-div">
+        {
+          plants.map((plant, i)=>{
+            const {_id, name, category, image, price, description} =plant
+            return <PlantCard key={i} _id={_id} name={name} category={category} image={image} price={price} description={description}/>
+          })
+        }
+        <Toaster/>
+        <Link to="/add">
+          <img src={addImage} alt="addImage" className="addImage-btn"/>
+        </Link>
+      </div>
+    </>
   )
 }
 
